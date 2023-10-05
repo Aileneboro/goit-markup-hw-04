@@ -249,6 +249,33 @@ ul > li > a {
   padding: 32px 0;
 }
 
+.team-social-icons {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-social-icons-item {
+}
+
+.team-social-icons-svg {
+  fill: #f4f4fd;
+}
+
+.team-social-icons-link {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  padding: 12px;
+  margin-top: 8px;
+}
+
+.team-social-icons-link:hover {
+  background-color: #404bbf;
+}
+
 /* PORTFOLIO */
 
 .portfolio-list {
