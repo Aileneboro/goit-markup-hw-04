@@ -1,0 +1,275 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1158px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.section {
+  padding: 120px 0;
+}
+
+/* HEADER */
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.16;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  margin-right: 76px;
+}
+
+.logo .accent-dark {
+  color: #2e2f42;
+}
+
+.page-nav {
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.link:active,
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+
+.contacts-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+}
+a.link {
+  padding: 24px 0;
+}
+
+nav > a {
+  display: inline-block;
+}
+
+ul > li > a {
+  display: inline-block;
+}
+
+.contacts {
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+
+/* SECTION ORDER */
+
+.button-order {
+  display: block;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  letter-spacing: 0.04em;
+  margin: 0 auto;
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  height: 56px;
+  border: none;
+}
+
+.button-order:hover,
+.button-order:focus {
+  background-color: #404bbf;
+}
+
+.big-white-text {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  max-width: 496px;
+  margin: 0 auto 48px auto;
+}
+
+.title-main-section {
+  background-color: #2e2f42;
+  padding: 188px 0;
+}
+
+/* Qualities */
+
+.qualities-list {
+  display: flex;
+  gap: 24px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.qualities-item {
+  max-width: 264px;
+}
+
+.subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* TEAM */
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.article-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+
+.img-team {
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  max-width: 264px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-subtitle {
+  text-align: center;
+  padding: 32px 0;
+}
+
+/* PORTFOLIO */
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(1440-2 * 24) / 3;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.img-portfolio {
+  max-width: 360px;
+}
+.portfolio-subtitle {
+  padding: 32px 16px;
+  max-width: 360px;
+  border: 1px solid #e7e9fc;
+  border-top: 0;
+}
+
+/* FOOTER */
+
+.footer-color {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.text-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
+}
+
+.logo .accent-white {
+  color: #f4f4fd;
+}
+
+footer > div > a {
+  display: inline-block;
+  margin-bottom: 16px;
+}
