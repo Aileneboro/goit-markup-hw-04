@@ -256,9 +256,6 @@ ul > li > a {
   align-items: center;
 }
 
-.team-social-icons-item {
-}
-
 .team-social-icons-svg {
   fill: #f4f4fd;
 }
@@ -303,12 +300,18 @@ ul > li > a {
   padding: 100px 0;
 }
 
+.footer-container {
+  display: flex;
+}
+
 .text-footer {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin-right: 120px;
+  margin-top: 18px;
 }
 
 .logo .accent-white {
@@ -318,4 +321,27 @@ ul > li > a {
 footer > div > a {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-subtitle {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social-icons-link {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  padding: 8px;
 }
