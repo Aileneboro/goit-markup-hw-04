@@ -104,11 +104,11 @@ img {
   position: relative;
 }
 
-.studio-link {
+.current {
   color: #404bbf;
 }
 
-.studio-link::after {
+.current::after {
   display: block;
   content: "";
   left: 0;
